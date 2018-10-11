@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int pilih, a, b, c, d, z, x, y, q, w, e;
+    cout<<"Kalkulator sederhana";
+    cout<<"\na. Tambah"<<endl;
+    cout<<"\nb. Kurang"<<endl;
+    cout<<"\nc. Kali"<<endl;
+    cout<<"\nd. Bagi"<<endl;
+    cout<<"Masukkan: ";
+    cin>>pilih;
+    
+    
+    cout<<"\nMasukkan bilangan pertama: "<<endl;
+    cin>>x;
+    cout<<"\nMasukkan bilangan kedua: "<<endl;
+    cin>>y;
+    
+    if (pilih == a)
+    {
+        z=x+y;
+        cout<<"Hasil= "<<z<<endl;
+    }
+    else if (pilih == b)
+    {
+        q=x-y;
+        cout<<"Hasil= "<<q<<endl;
+    }
+    else if (pilih == c)
+    {
+        w=x*y;
+        cout<<"Hasil= "<<w<<endl;
+    }
+    else if (pilih == d)
+    {
+        e=x/y;
+        cout<<"Hasil= "<<e<<endl;
+    }
+    return 0;
+}
